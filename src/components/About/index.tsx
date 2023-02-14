@@ -1,5 +1,8 @@
 import React, { useCallback } from 'react';
 
+import encv from 'assets/resume/en_re.pdf';
+import ptcv from 'assets/resume/pt_cv.pdf';
+
 import { useLanguage } from 'hooks/useLanguage';
 
 import dataset from './dataset';
@@ -37,7 +40,12 @@ const About: React.FC = () => {
                 
 
             <div className="about__buttons">
-              <a download="" href="assets/pdf/CV.pdf" target="_blank" className="button button--flex">
+              <a href={lang === 'pt' ? ptcv : encv} 
+                download={lang === 'pt' ? 'pt_cv.pdf' : 'en_cv.pdf'}
+                rel="noreferrer"
+                target="_blank" 
+                className="button button--flex"
+              >
                   Download CV<i className="uil uil-download-alt button__icon"></i>
               </a>
             </div>
