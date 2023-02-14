@@ -12,31 +12,31 @@ const dataset = {
         list: [
           {
             name: 'Javascript',
-            level: '100%',
+            level: '100',
           },
           {
             name: 'Typescript',
-            level: '100%',
+            level: '100',
           },
           {
             name: 'PHP',
-            level: '100%',
+            level: '100',
           },
           {
             name: 'HTML5',
-            level: '100%',
+            level: '100',
           },
           {
             name: 'CSS3',
-            level: '100%',
+            level: '100',
           },
           {
             name: 'PostgreSQL',
-            level: '100%',
+            level: '100',
           },
           {
             name: 'MongoDB',
-            level: '80%',
+            level: '80',
           },
         ]
       },
@@ -48,35 +48,35 @@ const dataset = {
         list: [
           {
             name: 'React JS',
-            level: '100%',
+            level: '100',
           },
           {
             name: 'Node.js',
-            level: '100%',
+            level: '100',
           },
           {
             name: 'Laravel',
-            level: '100%',
+            level: '100',
           },
           {
             name: 'Angular',
-            level: '50%',
+            level: '50',
           },
           {
             name: 'JQuery',
-            level: '100%',
+            level: '100',
           },
           {
             name: 'React Native',
-            level: '60%',
+            level: '60',
           },
           {
             name: 'Bootstrap',
-            level: '100%',
+            level: '100',
           },
           {
             name: 'Material UI',
-            level: '80%',
+            level: '80',
           },
         ]
       },
@@ -94,31 +94,31 @@ const dataset = {
         list: [
           {
             name: 'Javascript',
-            level: '100%',
+            level: '100',
           },
           {
             name: 'Typescript',
-            level: '100%',
+            level: '100',
           },
           {
             name: 'PHP',
-            level: '100%',
+            level: '100',
           },
           {
             name: 'HTML5',
-            level: '100%',
+            level: '100',
           },
           {
             name: 'CSS3',
-            level: '100%',
+            level: '100',
           },
           {
             name: 'PostgreSQL',
-            level: '100%',
+            level: '100',
           },
           {
             name: 'MongoDB',
-            level: '80%',
+            level: '80',
           },
         ]
       },
@@ -130,35 +130,35 @@ const dataset = {
         list: [
           {
             name: 'React JS',
-            level: '100%',
+            level: '100',
           },
           {
             name: 'Node.js',
-            level: '100%',
+            level: '100',
           },
           {
             name: 'Laravel',
-            level: '100%',
+            level: '100',
           },
           {
             name: 'Angular',
-            level: '50%',
+            level: '50',
           },
           {
             name: 'JQuery',
-            level: '100%',
+            level: '100',
           },
           {
             name: 'React Native',
-            level: '60%',
+            level: '60',
           },
           {
             name: 'Bootstrap',
-            level: '100%',
+            level: '100',
           },
           {
             name: 'Material UI',
-            level: '80%',
+            level: '80',
           },
         ]
       },

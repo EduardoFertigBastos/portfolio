@@ -54,10 +54,10 @@ const Skills: React.FC = () => {
                       <div key={index2} className="skills__data">
                         <div className="skills__titles">
                           <h3 className="skills__name">{item.name}</h3>
-                          <span className="skills__number">{item.level}</span>
+                          <span className="skills__number">{item.level}%</span>
                         </div>
                         <div className="skills__bar">
-                          <span className="skills__percentage skills__50"></span>
+                          <span className={`skills__percentage skills__${item.level}`}></span>
                         </div>
                       </div>
                     ))
