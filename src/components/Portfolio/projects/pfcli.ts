@@ -56,7 +56,7 @@ export const enPfcli = {
 	
 	The application features a filter function that allows the user to filter products based on categories, ensuring that only suitable products are displayed. The filter is saved in local storage for easy access in the future.\n\n
 	
-	The project leverages advanced technologies such as React and Node.js to ensure good performance and a smooth user experience. Additionally, the use of TypeScript helps maintain code quality, making it easier to maintain and allowing for future development.`,
+	The project leverages advanced technologies such as React JS and Node.js to ensure good performance and a smooth user experience. Additionally, the use of TypeScript helps maintain code quality, making it easier to maintain and allowing for future development.`,
 	images,
   skills,
 };
@@ -69,7 +69,7 @@ export const ptPfcli = {
 	
 	A aplicação possui uma função de filtro que permite ao usuário filtrar produtos com base nas categorias, garantindo que apenas produtos adequados sejam exibidos. O filtro é salvo no armazenamento local para manter a preferência do usuário pro futuro.\n\n
 	
-	O projeto aproveita tecnologias avançadas, como React e Node.js, para garantir uma boa performance e uma experiência de usuário suave. Além disso, o uso do TypeScript ajuda a manter a qualidade do código, tornando mais fácil de manter e permitindo futuros desenvolvimentos.`,
+	O projeto aproveita tecnologias avançadas, como React JS e Node.js, para garantir uma boa performance e uma experiência de usuário suave. Além disso, o uso do TypeScript ajuda a manter a qualidade do código, tornando mais fácil de manter e permitindo futuros desenvolvimentos.`,
 	images,
   skills,
 }

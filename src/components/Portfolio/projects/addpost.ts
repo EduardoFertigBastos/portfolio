@@ -28,7 +28,7 @@ const images = [
 
 export const enAddPosts = {
   title: "Add Posts",
-  description: `This project is a modern and intuitive solution for content creation and management, built with the most up-to-date development technologies including React, TypeScript, CSS, Styled Components, and HTML. \n\n
+  description: `This project is a modern and intuitive solution for content creation and management, built with the most up-to-date development technologies including React JS, TypeScript, CSS, Styled Components, and HTML. \n\n
 
 	The application allows users to create posts including an image, title, and message, adding them to an organized and easily accessible list. Additionally, users can also remove unwanted posts with a single click on an intuitive button. \n\n
 	
@@ -39,7 +39,7 @@ export const enAddPosts = {
 
 export const ptAddPosts = {
   title: "Add Posts",
-  description: `Este projeto é uma solução moderna e intuitiva para a criação e gerenciamento de conteúdo, construída com as tecnologias de desenvolvimento mais atualizadas, incluindo React, TypeScript, CSS, Styled Components e HTML. \n\n
+  description: `Este projeto é uma solução moderna e intuitiva para a criação e gerenciamento de conteúdo, construída com as tecnologias de desenvolvimento mais atualizadas, incluindo React JS, TypeScript, CSS, Styled Components e HTML. \n\n
 
 	A aplicação permite que os usuários cadastrem posts, incluindo uma imagem, um título e uma mensagem, adicionando-os a uma lista organizada e facilmente acessível. Além disso, os usuários também podem remover posts indesejados com um único clique em um botão intuitivo.\n\n
 	
