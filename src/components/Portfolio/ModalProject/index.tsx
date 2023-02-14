@@ -73,6 +73,7 @@ const ModalProject: React.FC<Props> = ({ isOpen, setIsOpen, project }) => {
 
 	return (
 		<Modal
+			id='modal-project'
 			isOpen={isOpen}
 			style={customStyles}
 			contentLabel='Example Modal'

@@ -3,6 +3,7 @@ import styled from 'styled-components';
 export const CloseButton = styled.div`
   display: flex;
   justify-content: flex-end;
+  margin: 17px 23px 0 50px;
 
   button {
     background-color: transparent;
@@ -20,15 +21,28 @@ export const Body = styled.div`
   width: 100%;
   height: 94%;
 
-  @media screen and (max-width: 1200px) {
-    display: block;
-  }
 `;
 
 export const MainSection = styled.section`
+  padding: 20px 20px 0 20px;
+
   width: 100%;
-  height: 85%;
+  min-height: 80%;
   display: flex;
+
+  @media screen and (max-width: 1300px) {
+    display: flex;
+    width: 90%;
+    
+    flex-direction: column-reverse;
+    margin-bottom: 20px;
+    margin: 0 40px 20px 40px;
+  }
+
+  @media screen and (max-width: 600px) {
+    padding: 0px;
+    margin: 0 auto 20px auto;
+  }
 `
 
 export const DescriptionSection = styled.section`
@@ -45,16 +59,29 @@ export const DescriptionSection = styled.section`
     margin-bottom: var(--mb-0-75);
     text-align: justify;
     font-size: 1.2rem;
+    
+    @media screen and (max-width: 100px) {
+      font-size: 1.1rem;
+    }
+
+    @media screen and (max-width: 800px) {
+      font-size: 1rem;
+    }
   }
   
+  @media screen and (max-width: 1300px) {
+    width: 100%;
+  }
+
+
 `
 export const SeparateBar = styled.section`
   width: 2px;
-  height: 23%;
+  height: 200px;
   margin: auto 30px;
   background-color: var(--first-color);
 
-  @media screen and (max-width: 1200px) {
+  @media screen and (max-width: 1300px) {
     width: 0;
     height: 0;
     margin: 5px auto;
@@ -62,15 +89,23 @@ export const SeparateBar = styled.section`
 `;
 
 export const SkillSection = styled.section`
-  width: 103%;
   height: 20%;
   background: hsl(var(--hue-color), 28%, 12%);
-  margin-left:-25px;
-  padding: 0 10%; 
+  padding: 0 10% 0 10%; 
   color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  
+  @media screen and (max-width: 800px) {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  @media screen and (max-width: 800px) {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
   
 `
 
@@ -89,40 +124,50 @@ export const Skill = styled.div`
   &:hover {
     transform: scale(1.2);
   }
+
+  
+  @media screen and (max-width: 1500px) {
+    svg {
+      font-size: 3rem;
+    }
+      font-size: 1rem;
+  }
+
+  @media screen and (max-width: 900px) {
+    svg {
+      font-size: 2rem;
+    }
+      font-size: 0.8rem;
+  }
+
+  @media screen and (max-width: 800px) {
+
+    svg {
+      display: none;
+    }
+
+    &:hover {
+      transform: scale(1);
+    }
+  }
 `
 
 export const PhotoSection = styled.section`
   width: 48%;
-  height: 100%;
   display: flex;
+  align-items: center;
   justify-content: center;
   flex-direction: column;
-  margin-right: 10px;
   margin-top: -14px;
 
+
+  @media screen and (max-width: 1300px) {
+    margin-top: 0px;
+    width: 100%;
+  }
 `
 
 export const Image = styled.div`
   min-width: 400px;
   justify-content: center;
-`
-
-export const GalleryPhotoSection = styled.div`
-  padding-top: 10px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  margin-top: 1rem;
-`;
-
-export const ImgGallery = styled.img`
-  border: 1px solid #ddd; 
-  border-radius: 4px;  
-  padding: 5px; 
-  width: 150px; 
-  margin: 0 3px;
-  
-  max-height: 150px; 
-  object-fit: cover;
 `;
