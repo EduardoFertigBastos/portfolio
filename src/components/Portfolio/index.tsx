@@ -31,49 +31,46 @@ const Portfolio: React.FC = () => {
         { data.subtitle2 }
       </span>
 
-      <div className="portfolio__container container swiper-container">
-        <div className="swiper-wrapper">
-
-          {
-            data.projects.map((project, index) => (
-              <div key={index} className="portfolio__content grid swiper-slide">
-                <figure className="portfolio__figure">
-                  <img src={ project.images[0] } 
-                    alt={ project.images[0] } 
-                    className="portfolio__img" 
-                  />
-                </figure>
-                <div className="portfolio__data">
-                  <h3 className="portfolio__title">{ project.title }</h3>
-                  <p className="portfolio__description wrap_portfolio">
-                    { 
-                      project.description.length > LIMIT_CHARACTERS_TO_SHOW_ON_RESUMED_DESCRIPTION 
-                        ? project.description.slice(
-                            0, LIMIT_CHARACTERS_TO_SHOW_ON_RESUMED_DESCRIPTION
-                          ) + '...'
-                        : project.description
-                    }
-                  </p>
-                  <button
-                    className="button button--flex button--small portfolio__button"
-                    onClick={() => handleSeeMore(project)}
-                  >
-                    { data.seemore }
-                    <i className="uil uil-arrow-right button__icon"></i>
-                  </button>
-                  
-                </div>
+      <div className="portfolio__container container">
+        {
+          data.projects.map((project, index) => (
+            <div key={index} className="portfolio__content grid">
+              <figure className="portfolio__figure">
+                <img src={ project.images[0] } 
+                  alt={ project.images[0] } 
+                  className="portfolio__img" 
+                />
+              </figure>
+              <div className="portfolio__data">
+                <h3 className="portfolio__title">{ project.title }</h3>
+                <p className="portfolio__description wrap_portfolio">
+                  { 
+                    project.description.length > LIMIT_CHARACTERS_TO_SHOW_ON_RESUMED_DESCRIPTION 
+                      ? project.description.slice(
+                          0, LIMIT_CHARACTERS_TO_SHOW_ON_RESUMED_DESCRIPTION
+                        ) + '...'
+                      : project.description
+                  }
+                </p>
+                <button
+                  className="button button--flex button--small portfolio__button"
+                  onClick={() => handleSeeMore(project)}
+                >
+                  { data.seemore }
+                  <i className="uil uil-arrow-right button__icon"></i>
+                </button>
+                
               </div>
-            ))
-          }
-          
-          <ModalProject 
-            isOpen={isOpen} 
-            setIsOpen={setIsOpen}
-            project={project}
-          />
+            </div>
+          ))
+        }
+        
+        <ModalProject 
+          isOpen={isOpen} 
+          setIsOpen={setIsOpen}
+          project={project}
+        />
 
-        </div>
       </div>
     </section>
   )

@@ -30,7 +30,7 @@ export const MainSection = styled.section`
   min-height: 80%;
   display: flex;
 
-  @media screen and (max-width: 1300px) {
+  @media screen and (max-width: 1500px) {
     display: flex;
     width: 90%;
     
@@ -69,7 +69,7 @@ export const DescriptionSection = styled.section`
     }
   }
   
-  @media screen and (max-width: 1300px) {
+  @media screen and (max-width: 1500px) {
     width: 100%;
   }
 
@@ -81,7 +81,7 @@ export const SeparateBar = styled.section`
   margin: auto 30px;
   background-color: var(--first-color);
 
-  @media screen and (max-width: 1300px) {
+  @media screen and (max-width: 1500px) {
     width: 0;
     height: 0;
     margin: 5px auto;
@@ -161,7 +161,7 @@ export const PhotoSection = styled.section`
   margin-top: -14px;
 
 
-  @media screen and (max-width: 1300px) {
+  @media screen and (max-width: 1500px) {
     margin-top: 0px;
     width: 100%;
   }
