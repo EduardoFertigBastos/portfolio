@@ -7,6 +7,7 @@ import {
   SiJquery,
   SiMaterialui,
   SiPostgresql,
+  SiStyledcomponents,
   SiTypescript
 } from 'react-icons/si'
 
@@ -71,6 +72,11 @@ export const react: Skill = {
 export const reactNative: Skill = {
   name: 'React Native',
   icon: FaReact
+}
+
+export const styledComponents: Skill = {
+  name: 'Styled Components',
+  icon: SiStyledcomponents
 }
 
 export const typescript: Skill = {
