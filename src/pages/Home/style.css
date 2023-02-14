@@ -1346,6 +1346,10 @@ img {
     word-break: break-all;
 }
 
+#modal-project {
+  background: var(--body-color) !important;
+}
+
 #modal-project, body {
     overflow-y: auto !important;
     border-radius: 10px 2px 2px 10px !important;

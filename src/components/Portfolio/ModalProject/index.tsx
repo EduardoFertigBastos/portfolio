@@ -102,7 +102,7 @@ const ModalProject: React.FC<Props> = ({ isOpen, setIsOpen, project }) => {
 						}
 					</DescriptionSection>
 				</MainSection>
-				<SkillSection>
+				<SkillSection quantity={project?.skills.length as number}>
 					{project?.skills.map(({ icon: Icon, name }) => (
 						<Skill key={name}>
 							{<Icon />}

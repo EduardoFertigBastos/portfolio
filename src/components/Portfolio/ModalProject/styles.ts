@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 
 export const CloseButton = styled.div`
   display: flex;
@@ -88,7 +88,12 @@ export const SeparateBar = styled.section`
   }
 `;
 
-export const SkillSection = styled.section`
+
+interface SkillProps {
+  quantity: number;
+}
+
+export const SkillSection = styled.section<SkillProps>`
   height: 20%;
   background: hsl(var(--hue-color), 28%, 12%);
   padding: 0 10% 0 10%; 
@@ -96,6 +101,20 @@ export const SkillSection = styled.section`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  
+  ${(prop:SkillProps) => prop.quantity > 8 
+    && css`
+      @media screen and (max-width: 1300px) {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+
+        svg {
+          display: none !important;
+        }
+      }
+    `
+  }
+  
   
   @media screen and (max-width: 800px) {
     display: grid;
@@ -105,9 +124,10 @@ export const SkillSection = styled.section`
   @media screen and (max-width: 800px) {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-  }
-  
-`
+  }  
+`;
+
+
 
 export const Skill = styled.div`
   display: flex;
@@ -117,6 +137,7 @@ export const Skill = styled.div`
 
   svg {
     font-size: 3.8rem;
+    
     display: block;
     margin: 0 auto;
   }
@@ -125,19 +146,20 @@ export const Skill = styled.div`
     transform: scale(1.2);
   }
 
-  
   @media screen and (max-width: 1500px) {
     svg {
       font-size: 3rem;
     }
-      font-size: 1rem;
+    
+    font-size: 1rem;
   }
 
   @media screen and (max-width: 900px) {
     svg {
       font-size: 2rem;
     }
-      font-size: 0.8rem;
+
+    font-size: 0.8rem;
   }
 
   @media screen and (max-width: 800px) {

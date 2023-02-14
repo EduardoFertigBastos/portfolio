@@ -3,6 +3,8 @@ import React, { useState } from 'react';
 import { IoIosArrowBack, IoIosArrowForward } from 'react-icons/io';
 
 
+import ModalImage from '../ModalProject/ModalImage';
+
 import { Bolinha, ContainerBolinhas, Img, LeftArrow, RightArrow, Slider,  } from './styles';
 
 interface IImageSliderProps {
@@ -12,6 +14,7 @@ interface IImageSliderProps {
 
 const ImageSlider: React.FC<IImageSliderProps> = ({ slides, title, ...rest }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [open, setOpen] = useState(false);
 
   function goToPrevious()
   {
@@ -20,7 +23,6 @@ const ImageSlider: React.FC<IImageSliderProps> = ({ slides, title, ...rest }) =>
     setCurrentIndex(newIndex);
   }
   
-
   function goToNext()
   {
     const isLastSlide = currentIndex === slides.length - 1;
@@ -43,7 +45,9 @@ const ImageSlider: React.FC<IImageSliderProps> = ({ slides, title, ...rest }) =>
 
         }
         
-        <Img src={slides[currentIndex]} alt={`${title}-${currentIndex}`}/>
+        <Img src={slides[currentIndex]} 
+          alt={`${title}-${currentIndex}`} 
+          onClick={() => setOpen(true)}/>
       </Slider>
       <ContainerBolinhas>
         {slides.map((slide, index) => (
@@ -53,6 +57,11 @@ const ImageSlider: React.FC<IImageSliderProps> = ({ slides, title, ...rest }) =>
           />
         ))}
       </ContainerBolinhas>
+      <ModalImage 
+          isOpen={open} 
+          setIsOpen={setOpen}
+          image={slides[currentIndex]}
+        />
     </>
 
   );
