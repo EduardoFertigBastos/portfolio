@@ -1,4 +1,11 @@
+import { enAddPosts, ptAddPosts } from './projects/addpost';
+import { enAnalysis, ptAnalysis } from './projects/analysis';
 import { enByNani, ptByNani } from './projects/bynani';
+import { enClinica, ptClinica } from './projects/clinica';
+import { enEcoleta, ptEcoleta } from './projects/ecoleta';
+import { enGithubUsers, ptGithubUsers } from './projects/githubusers';
+import { enPfcli, ptPfcli } from './projects/pfcli';
+import { enSpotifyCity, ptSpotifyCity } from './projects/spotifycity';
 
 const dataset = {
   en: {
@@ -7,7 +14,14 @@ const dataset = {
     subtitle2: ' to see all.',
     seemore: 'See more',
     projects: [
-      enByNani
+      enPfcli,
+      enClinica,
+      enByNani,
+      enEcoleta,
+      enAddPosts,
+      enAnalysis,
+      enSpotifyCity,
+      enGithubUsers,
     ]
   },
   pt: {
@@ -16,7 +30,15 @@ const dataset = {
     subtitle2: ' para ver tudo.',
     seemore: 'Veja mais',
     projects: [
-      ptByNani
+      ptPfcli,
+      ptClinica,
+      ptByNani,
+      ptEcoleta,
+      ptAddPosts,
+      ptAnalysis,
+      ptSpotifyCity,
+      ptGithubUsers,
+
     ]
   },
 
