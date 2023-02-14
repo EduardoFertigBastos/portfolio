@@ -1,4 +1,4 @@
-import React, { useCallback } from 'react';
+import React, { useCallback, useState } from 'react';
 
 import { useLanguage } from 'hooks/useLanguage';
 
@@ -8,6 +8,11 @@ const Contact: React.FC = () => {
 
   const lang = useLanguage();
   const data = dataset[lang];
+
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [project, setProject] = useState('');
+  const [message, setMessage] = useState('');
 
   return (
     <section className="contact section" id="contact">
@@ -60,6 +65,7 @@ const Contact: React.FC = () => {
                 </label>
                 <input type="text" 
                   className="contact__input" 
+                  onChange={e => setName(e.target.value)}
                   name='name'
                 />
               </div>
@@ -72,6 +78,7 @@ const Contact: React.FC = () => {
                 </label>
                 <input type="email" 
                   className="contact__input" 
+                  onChange={e => setEmail(e.target.value)}
                   name='email'
                 />
               </div>
@@ -85,6 +92,7 @@ const Contact: React.FC = () => {
               </label>
               <input type="text" 
                 className="contact__input" 
+                onChange={e => setProject(e.target.value)}
                 name='project'
               />
             </div>
@@ -95,6 +103,7 @@ const Contact: React.FC = () => {
               </label>
               <textarea name="message" 
                 id="message" 
+                onChange={e => setMessage(e.target.value)}
                 cols={0} 
                 rows={7} 
                 className="contact__input"
@@ -102,7 +111,7 @@ const Contact: React.FC = () => {
             </div>
 
             <div>
-              <a href={data.socialmedia.filter(el => el.label === 'Email')[0].href} 
+              <a href={`${data.socialmedia.filter(el => el.label === 'Email')[0].href}?subject=${project}&body=${message}&&cc=${email}`} 
                 className="button button--flex">
                 { data.form.button }
                 <i className="uil uil-message button__icon"></i>
