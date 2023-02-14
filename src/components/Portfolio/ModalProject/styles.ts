@@ -63,10 +63,9 @@ export const SeparateBar = styled.section`
 
 export const SkillSection = styled.section`
   width: 103%;
-  margin-left:-25px;
-  
-  height: 140px;
+  height: 20%;
   background: hsl(var(--hue-color), 28%, 12%);
+  margin-left:-25px;
   padding: 0 10%; 
   color: white;
   display: flex;
