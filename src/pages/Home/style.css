@@ -732,6 +732,7 @@ img {
 
 .portfolio__content {
     padding: 0 1.5rem;
+    margin-top: 30px;
 }
 
 .portfolio__img {
@@ -1343,4 +1344,25 @@ img {
     white-space: pre-line; /* CSS 3 (and 2.1 as well, actually) */
     word-wrap: break-word; /* IE */
     word-break: break-all;
- }
+}
+
+#modal-project, body {
+    overflow-y: auto !important;
+    border-radius: 10px 2px 2px 10px !important;
+}
+
+#modal-project::-webkit-scrollbar {
+    width: 5px;
+}
+
+
+#modal-project::-webkit-scrollbar-track, 
+body::-webkit-scrollbar-track {
+    background-color: #efefef;
+    border-radius: 100px;
+}
+
+#modal-project::-webkit-scrollbar-thumb {
+    background-color: var(--first-color);
+    border-radius: 100px;
+}
