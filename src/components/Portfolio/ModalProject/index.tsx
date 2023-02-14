@@ -30,7 +30,7 @@ const customStyles = {
 		left: "50%",
 		right: "auto",
 		bottom: "auto",
-
+		padding: "0px",
 		width: "80%",
 		height: "80%",
 		borderRadius: "36px",
@@ -106,7 +106,7 @@ const ModalProject: React.FC<Props> = ({ isOpen, setIsOpen, project }) => {
 					{project?.skills.map(({ icon: Icon, name }) => (
 						<Skill key={name}>
 							{<Icon />}
-							<span>{name}</span>
+							{name}
 						</Skill>
 					))}
 				</SkillSection>
