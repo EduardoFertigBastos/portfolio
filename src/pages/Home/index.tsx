@@ -22,9 +22,11 @@ const HomePage = () => {
 				<About></About>
 
 				<Portfolio></Portfolio>
+			
 				<Skills></Skills>
 				<Contact></Contact>
 			</main>
+
 			<Footer></Footer>
 		</>
 	);
