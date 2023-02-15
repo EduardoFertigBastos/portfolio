@@ -5,17 +5,31 @@ import { useLanguage } from 'hooks/useLanguage';
 import dataset from './dataset';
 import Project from './interface/Project';
 import ModalProject from './ModalProject';
+import ModalImage from './ModalProject/ModalImage';
 
-const LIMIT_CHARACTERS_TO_SHOW_ON_RESUMED_DESCRIPTION = 197;
+const LIMIT_CHARACTERS_TO_SHOW_ON_RESUMED_DESCRIPTION = 220;
 
 const Portfolio: React.FC = () => {
 
   const lang = useLanguage();
   const data = dataset[lang];
   const [isOpen, setIsOpen] = useState(false);
+  const [isOpenImage, setIsOpenImage] = useState(false);
+  const [image, setImage] = useState<string>();
   const [project, setProject] = useState<Project>();
 
 
+  const getDescriptionText = useCallback((description: string) => {
+    if (description.length <= LIMIT_CHARACTERS_TO_SHOW_ON_RESUMED_DESCRIPTION) {
+      return description;
+    }
+    let reduced = description.slice(0, LIMIT_CHARACTERS_TO_SHOW_ON_RESUMED_DESCRIPTION);
+    let lastOccurrence = reduced.lastIndexOf(" ");
+    let result = reduced.substring(0, lastOccurrence);
+
+    return result + '...';
+  }, [LIMIT_CHARACTERS_TO_SHOW_ON_RESUMED_DESCRIPTION]);
+  
   const handleSeeMore = useCallback((project:any) => {
     setIsOpen(true);
     setProject(project);
@@ -39,17 +53,17 @@ const Portfolio: React.FC = () => {
                 <img src={ project.images[0] } 
                   alt={ project.images[0] } 
                   className="portfolio__img" 
+                  onClick={() => {
+                    setIsOpenImage(true)
+                    setImage(project.images[0])
+                  }}
                 />
               </figure>
               <div className="portfolio__data">
                 <h3 className="portfolio__title">{ project.title }</h3>
-                <p className="portfolio__description wrap_portfolio">
+                <p className="portfolio__description">
                   { 
-                    project.description.length > LIMIT_CHARACTERS_TO_SHOW_ON_RESUMED_DESCRIPTION 
-                      ? project.description.slice(
-                          0, LIMIT_CHARACTERS_TO_SHOW_ON_RESUMED_DESCRIPTION
-                        ) + '...'
-                      : project.description
+                    getDescriptionText(project.description)
                   }
                 </p>
                 <button
@@ -65,6 +79,12 @@ const Portfolio: React.FC = () => {
           ))
         }
         
+        <ModalImage 
+          isOpen={isOpenImage} 
+          setIsOpen={setIsOpenImage}
+          image={image as string}
+        />
+
         <ModalProject 
           isOpen={isOpen} 
           setIsOpen={setIsOpen}

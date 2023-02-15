@@ -56,6 +56,7 @@ const ImageSlider: React.FC<IImageSliderProps> = ({ slides, title, ...rest }) =>
           />
         ))}
       </ContainerBolinhas>
+      
       <ModalImage 
           isOpen={open} 
           setIsOpen={setOpen}

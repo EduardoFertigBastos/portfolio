@@ -51,8 +51,6 @@ const ModalImage: React.FC<Props> = ({ isOpen, setIsOpen, image }) => {
 			onRequestClose={closeModal}
 			shouldCloseOnOverlayClick={true}
 			shouldCloseOnEsc={true}>
-			<CloseButton>
-			</CloseButton>
 			<Body>
 				<img src={image} alt='zoomed' />
 				

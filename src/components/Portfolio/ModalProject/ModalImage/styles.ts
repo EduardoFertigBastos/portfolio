@@ -17,6 +17,7 @@ export const Icon = styled(AiOutlineCloseCircle)`
   margin-top: 10px;
   font-size: 2.2rem;
   z-index: 999;
+  cursor: pointer;
 `;
 
 export const Body = styled.div`

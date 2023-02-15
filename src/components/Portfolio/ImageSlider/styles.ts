@@ -37,6 +37,8 @@ export const Img = styled.img`
   
   object-fit: cover;
 
+  cursor: pointer;
+
   -webkit-user-select: none;
   -khtml-user-select: none;
   -moz-user-select: none;
