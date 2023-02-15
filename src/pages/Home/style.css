@@ -1370,3 +1370,26 @@ body::-webkit-scrollbar-track {
     background-color: var(--first-color);
     border-radius: 100px;
 }
+
+@media screen and (max-width: 600px) {
+    #modal-project {
+        width: 90% !important;
+        height: 90% !important;
+    }
+    #modal-imagem {
+        width: 88% !important;
+        height: 88% !important;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    #modal-project {
+        width: 96% !important;
+        height: 88% !important;
+    }
+    
+    #modal-imagem {
+        width: 94% !important;
+        height: 86% !important;
+    }
+}

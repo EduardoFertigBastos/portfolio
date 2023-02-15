@@ -1,11 +1,11 @@
-import React, { useCallback } from "react";
+import React from "react";
 
 import Modal from "react-modal";
 
 import {
 	Body,
 	CloseButton,
-	Icon
+	Icon,
 } from "./styles";
 
 const customStyles = {
@@ -52,10 +52,11 @@ const ModalImage: React.FC<Props> = ({ isOpen, setIsOpen, image }) => {
 			shouldCloseOnOverlayClick={true}
 			shouldCloseOnEsc={true}>
 			<CloseButton>
-				<Icon onClick={closeModal}/>
 			</CloseButton>
 			<Body>
 				<img src={image} alt='zoomed' />
+				
+				<Icon onClick={closeModal}/>
 			</Body>
 		</Modal>
 	);

@@ -54,23 +54,6 @@ const ModalProject: React.FC<Props> = ({ isOpen, setIsOpen, project }) => {
 		setIsOpen(false);
 	}
 
-	const handleImageClick = useCallback(
-		(e: React.MouseEvent<HTMLImageElement>) => {
-      const galleryField = document.querySelector<HTMLImageElement>(
-				"#gallery-field"
-			);
-			
-      if (!galleryField) {
-				return
-			}
-
-			galleryField.style.display = 'block';
-			galleryField.src = e.currentTarget.src;
-			galleryField.alt = e.currentTarget.alt;
-		},
-    []
-	);
-
 	return (
 		<Modal
 			id='modal-project'

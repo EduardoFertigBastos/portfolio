@@ -12,14 +12,19 @@ export const CloseButton = styled.div`
 `;
 
 export const Icon = styled(AiOutlineCloseCircle)`
-  color: var(--first-color);
+  color: #e53935;
+  margin-left: -3rem;
+  margin-top: 10px;
   font-size: 2.2rem;
+  z-index: 999;
 `;
 
 export const Body = styled.div`
   justify-content: center;
   display: flex;
+
   img {
+    max-height: 80%;
     vertical-align:middle;
   }
 `;

@@ -60,13 +60,18 @@ export const DescriptionSection = styled.section`
     text-align: justify;
     font-size: 1.2rem;
     
-    @media screen and (max-width: 100px) {
+    @media screen and (max-width: 900px) {
       font-size: 1.1rem;
     }
 
     @media screen and (max-width: 800px) {
       font-size: 1rem;
     }
+
+    @media screen and (max-width: 470px) {
+      font-size: 0.95rem;
+    }
+    
   }
   
   @media screen and (max-width: 1500px) {
@@ -104,9 +109,24 @@ export const SkillSection = styled.section<SkillProps>`
   
   ${(prop:SkillProps) => prop.quantity > 8 
     && css`
+      @media screen and (max-width: 1500px) {
+        svg {
+          font-size: 2rem !important;
+        }
+      }
+
       @media screen and (max-width: 1300px) {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
+
+        svg {
+          display: none !important;
+        }
+      }
+
+      @media screen and (max-width: 470px) {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr) !important;
 
         svg {
           display: none !important;
@@ -121,10 +141,6 @@ export const SkillSection = styled.section<SkillProps>`
     grid-template-columns: repeat(4, 1fr);
   }
 
-  @media screen and (max-width: 800px) {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-  }  
 `;
 
 
@@ -134,9 +150,9 @@ export const Skill = styled.div`
   flex-direction: column;
   justify-content: center;
   transition: all 0.4s;
-
+  margin: 0 10px;
   svg {
-    font-size: 3.8rem;
+    font-size: 3rem;
     
     display: block;
     margin: 0 auto;
@@ -146,13 +162,11 @@ export const Skill = styled.div`
     transform: scale(1.2);
   }
 
-  @media screen and (max-width: 1500px) {
-    svg {
-      font-size: 3rem;
-    }
-    
-    font-size: 1rem;
+  svg {
+    font-size: 3rem;
   }
+  
+  font-size: 1rem;
 
   @media screen and (max-width: 900px) {
     svg {
@@ -192,4 +206,9 @@ export const PhotoSection = styled.section`
 export const Image = styled.div`
   min-width: 400px;
   justify-content: center;
+  
+  
+  @media screen and (max-width: 470px) {
+    min-width: 100%;
+  }
 `;
