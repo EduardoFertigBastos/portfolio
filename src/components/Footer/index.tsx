@@ -31,7 +31,7 @@ const Footer: React.FC = () => {
 
           <div className="footer__socials">
             {
-              data.socialmedia.map((item, index) => (
+              data.socialmedia.map(({ icon: Icon, ...item}, index) => (
                 <a key={index} 
                   aria-label={`Link to ${item.label}`}
                   href={item.href} 
@@ -39,7 +39,7 @@ const Footer: React.FC = () => {
                   className="footer__social" 
                   rel="noreferrer"
                 >
-                  <i className={item.icon}></i>
+                  <Icon></Icon>
                 </a>
               ))
             }

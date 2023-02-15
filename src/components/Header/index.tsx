@@ -1,5 +1,8 @@
 import React, { useCallback } from 'react';
 
+import { AiOutlineAppstore, AiOutlineClose } from 'react-icons/ai';
+import { BiMoon } from 'react-icons/bi';
+
 import { useLanguage } from 'hooks/useLanguage';
 
 import dataset from './dataset';
@@ -54,12 +57,12 @@ const Header: React.FC = () => {
             }
               
           </ul>
-          <i className="uil uil-times nav__close nav__icon" id="nav-close"></i>
+          <AiOutlineClose className="nav__close nav__icon" id="nav-close"></AiOutlineClose>
         </div>
         <div className="nav__btns" onClick={handleTheme}>
-          <i className="uil uil-moon change-theme" id="theme-button"></i>
+          <BiMoon className="change-theme" id="theme-button"></BiMoon>
           <div className="nav__toggle" id="nav-toggle">
-              <i className="uil uil-apps nav__icon"></i>
+              <AiOutlineAppstore className="nav__icon"></AiOutlineAppstore>
           </div>
         </div>
       </nav>

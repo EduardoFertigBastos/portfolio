@@ -1,5 +1,9 @@
 import React from 'react';
 
+import { BiMouse } from 'react-icons/bi';
+import { BsArrowDownShort } from 'react-icons/bs';
+import { FiSend } from 'react-icons/fi';
+
 import { useLanguage } from 'hooks/useLanguage';
 
 import dataset from './dataset';
@@ -15,7 +19,7 @@ const Home: React.FC = () => {
         <div className="home__content grid">
           <div className="home__social">
             {
-              data.socialmedia.map((social, index) => (
+              data.socialmedia.map(({ icon: Icon, ...social }, index) => (
                 <a href={social.href} 
                   aria-label={`Link to ${social.label}`}
                   rel='noreferrer' 
@@ -23,7 +27,7 @@ const Home: React.FC = () => {
                   target="_blank" 
                   className="home__social-icon"
                 >
-                  <i className={social.icon}></i>
+                  <Icon></Icon>
                 </a>
               ))
             }
@@ -46,9 +50,7 @@ const Home: React.FC = () => {
                   129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028
                   -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
 
-                  <image className="home__blob-img" x='-8' y='-8'
-                    transform="3" style={{ transform: 'scale(1.3)' }}
-                   xlinkHref={data.profilePhoto}
+                  <image className="home__blob-img" x='-8' y='-8' xlinkHref={data.profilePhoto}
                    />
                 </g>
               </svg>
@@ -59,16 +61,16 @@ const Home: React.FC = () => {
               <h3 className="home__subtitle">{data.subtitle}</h3>
               <p className="home__description"> {data.description}</p>
               <a href="#contact" className="button button--flex">
-                {data.contact} <i className="uil uil-message button__icon"></i>
+                {data.contact} <FiSend className="button__icon"></FiSend>
               </a>
             </div>
           </div>
 
           <div className="home__scroll">
             <a href="#about" className="home__scroll-button button--flex">
-              <i className="uil uil-mouse-alt home__scroll-mouse"></i>
+              <BiMouse className="home__scroll-mouse"></BiMouse>
               <span className="home__scroll-name">{data.scroll}</span>
-              <i className="uil uil-arrow-down home__scroll-arrow "></i>
+              <BsArrowDownShort className="home__scroll-arrow "></BsArrowDownShort>
             </a>
           </div>
         </div>

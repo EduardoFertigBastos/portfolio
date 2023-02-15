@@ -1,20 +1,23 @@
+import { FiGithub } from 'react-icons/fi';
+import { HiOutlineMail } from 'react-icons/hi';
+import { SlSocialLinkedin } from 'react-icons/sl';
 
 const socialmedia = [
   {
     href: 'https://www.linkedin.com/in/eduardo-fertig-bastos/',
-    icon: 'uil uil-linkedin-alt',
+    icon: SlSocialLinkedin,
     label: 'LinkedIn',
     subtitle: 'www.linkedin.com/in/eduardo-fertig-bastos',
   },
   {
     href: 'https://github.com/EduardoFertigBastos',
-    icon: 'uil uil-github-alt',
+    icon: FiGithub,
     label: 'Github',
     subtitle: 'EduardoFertigBastos',
   },
   {
     href: 'mailto:dudufbastos1@gmail.com',
-    icon: 'uil uil-envelope-alt',
+    icon: HiOutlineMail,
     label: 'Email',
     subtitle: 'dudufbastos1@gmail.com',
   },

@@ -1,5 +1,7 @@
 import React, { useCallback, useState } from 'react';
 
+import { BiRightArrowAlt } from 'react-icons/bi';
+
 import { useLanguage } from 'hooks/useLanguage';
 
 import dataset from './dataset';
@@ -71,7 +73,7 @@ const Portfolio: React.FC = () => {
                   onClick={() => handleSeeMore(project)}
                 >
                   { data.seemore }
-                  <i className="uil uil-arrow-right button__icon"></i>
+                  <BiRightArrowAlt className="button__icon"></BiRightArrowAlt>
                 </button>
                 
               </div>

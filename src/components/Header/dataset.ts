@@ -1,55 +1,59 @@
+import { BiFile, BiHomeAlt, BiUser } from "react-icons/bi";
+import { GrContactInfo } from "react-icons/gr";
+import { MdOutlineFilterFrames } from "react-icons/md";
+
 const dataset = {
   en: [
     {
       href: '#home',
-      icon: 'uil uil-estate',
+      icon: BiHomeAlt,
       text: 'Home',
     },
     {
       href: '#about',
-      icon: 'uil uil-user',
+      icon: BiUser,
       text: 'About',
     },
     {
       href: '#portfolio',
-      icon: 'uil uil-scenery',
+      icon: MdOutlineFilterFrames,
       text: 'Portfolio',
     },
     {
       href: '#skills',
-      icon: 'uil uil-file-alt',
+      icon: BiFile,
       text: 'Skills',
     },
     {
       href: '#contact',
-      icon: 'uil uil-file-alt',
+      icon: GrContactInfo,
       text: 'Contact',
     }
   ],
   pt: [
     {
       href: '#home',
-      icon: 'uil uil-estate',
+      icon: BiHomeAlt,
       text: 'Home',
     },
     {
       href: '#about',
-      icon: 'uil uil-user',
+      icon: BiUser,
       text: 'Sobre',
     },
     {
       href: '#portfolio',
-      icon: 'uil uil-scenery',
+      icon: MdOutlineFilterFrames,
       text: 'Portfólio',
     },
     {
       href: '#skills',
-      icon: 'uil uil-file-alt',
+      icon: BiFile,
       text: 'Habilidades',
     },
     {
       href: '#contact',
-      icon: 'uil uil-file-alt',
+      icon: GrContactInfo,
       text: 'Contato',
     }
   ]

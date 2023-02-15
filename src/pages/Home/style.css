@@ -312,6 +312,7 @@ img {
 
 .home__blob-img {
     width: 170px;
+    transform: scale(1.3);
 }
 
 .home__data {
@@ -738,6 +739,7 @@ img {
 }
 
 .portfolio__img {
+    object-fit: cover;
     cursor: pointer;
     width: 100%;
     height: 220px;

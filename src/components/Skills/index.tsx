@@ -1,5 +1,7 @@
 import React, { useCallback, useState } from 'react';
 
+import { FaAngleDown } from 'react-icons/fa';
+
 import { useLanguage } from 'hooks/useLanguage';
 
 import dataset from './dataset';
@@ -26,7 +28,7 @@ const Skills: React.FC = () => {
 
       <div className="skills__container container grid">
           {
-            data.skills.map((skill, index1) => (
+            data.skills.map(({ icon: Icon, ...skill }, index1) => (
 
               // <div className="skills__content skills__close">
 
@@ -38,14 +40,14 @@ const Skills: React.FC = () => {
                 onClick={() => handleStatus(skill.id)}
               >
                 <div className="skills__header">
-                  <i className={`skills__icon ${skill.icon}`}></i>
+                  <Icon className={`skills__icon`}></Icon>
 
                   <div>
                     <h1 className="skills__title">{skill.title}</h1>
                     <span className="skills__subtitle">{skill.subtitle}</span>
                   </div>
 
-                  <i className="uil uil-angle-down skills__arrow"></i>
+                  <FaAngleDown className="skills__arrow"></FaAngleDown>
                 </div>
 
                 <div className="skills__list grid">

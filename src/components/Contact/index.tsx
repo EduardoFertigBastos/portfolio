@@ -1,5 +1,8 @@
 import React, { useState } from 'react';
 
+import { BiMap } from 'react-icons/bi';
+import { FiSend } from 'react-icons/fi';
+
 import { useLanguage } from 'hooks/useLanguage';
 
 import dataset from './dataset';
@@ -23,10 +26,10 @@ const Contact: React.FC = () => {
         <div>
           
           {
-            data.socialmedia.map((social, index) => (
+            data.socialmedia.map(({ icon: Icon, ...social }, index) => (
               <div key={index} className="contact__information">
                 <a href={social.href} aria-label={`Link to ${social.label}`} target="_blank" rel="noreferrer">
-                  <i className={`${social.icon} contact__icon`}></i>
+                  <Icon className={`contact__icon`}></Icon>
                 </a>
                 <div>
                   <h3 className="contact__title">
@@ -42,7 +45,7 @@ const Contact: React.FC = () => {
             ))
           }
           <div className="contact__information">
-              <i className="uil uil-map-marker contact__icon"></i>
+              <BiMap className="contact__icon"></BiMap>
               <div>
                   <h3 className="contact__title">
                     { data.address.label }
@@ -117,7 +120,7 @@ const Contact: React.FC = () => {
               <a href={`${data.socialmedia.filter(el => el.label === 'Email')[0].href}?subject=${project}&body=${message}&&cc=${email}`} 
                 className="button button--flex">
                 { data.form.button }
-                <i className="uil uil-message button__icon"></i>
+                <FiSend className="button__icon"></FiSend>
               </a>
             </div>
           </form>

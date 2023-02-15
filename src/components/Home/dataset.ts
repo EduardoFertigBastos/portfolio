@@ -1,14 +1,15 @@
 import photo from 'assets/me/oculosescuro.png';
+import { BsGithub, BsLinkedin } from "react-icons/bs";
 
 const socialmedia = [
   {
     href: 'https://www.linkedin.com/in/eduardo-fertig-bastos/',
-    icon: 'uil uil-linkedin-alt',
+    icon: BsLinkedin,
     label: 'LinkedIn',
   },
   {
     href: 'https://github.com/EduardoFertigBastos',
-    icon: 'uil uil-github-alt',
+    icon: BsGithub,
     label: 'Github',
   }
 ];

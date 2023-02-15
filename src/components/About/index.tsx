@@ -2,6 +2,7 @@ import React from 'react';
 
 import encv from 'assets/resume/en_re.pdf';
 import ptcv from 'assets/resume/pt_cv.pdf';
+import { BsDownload } from 'react-icons/bs';
 
 import { useLanguage } from 'hooks/useLanguage';
 
@@ -46,7 +47,7 @@ const About: React.FC = () => {
                 target="_blank" 
                 className="button button--flex"
               >
-                  Download CV<i className="uil uil-download-alt button__icon"></i>
+                  Download CV<BsDownload className="button__icon"></BsDownload>
               </a>
             </div>
           </div>

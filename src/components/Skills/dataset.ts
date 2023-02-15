@@ -1,3 +1,4 @@
+import { BsBraces, BsHddNetwork } from "react-icons/bs";
 
 const dataset = {
   en: {
@@ -8,7 +9,7 @@ const dataset = {
         id: 1,
         title: 'Development',
         subtitle: 'Programming languages and databases',
-        icon: 'uil uil-brackets-curly',
+        icon: BsBraces,
         list: [
           {
             name: 'Javascript',
@@ -44,7 +45,7 @@ const dataset = {
         id: 2,
         title: 'Frameworks & APIs',
         subtitle: 'My favorite frameworks and APIs',
-        icon: 'uil uil-server-network',
+        icon: BsHddNetwork,
         list: [
           {
             name: 'React JS',
@@ -90,7 +91,7 @@ const dataset = {
         id: 1,
         title: 'Desenvolvimento',
         subtitle: 'Linguagens de programação e bancos de dados',
-        icon: 'uil uil-brackets-curly',
+        icon: BsBraces,
         list: [
           {
             name: 'Javascript',
@@ -126,7 +127,7 @@ const dataset = {
         id: 2,
         title: 'Frameworks & APIs',
         subtitle: 'Minhas frameworks e APIs preferidas',
-        icon: 'uil uil-server-network',
+        icon: BsHddNetwork,
         list: [
           {
             name: 'React JS',
