@@ -17,6 +17,7 @@ const Home: React.FC = () => {
             {
               data.socialmedia.map((social, index) => (
                 <a href={social.href} 
+                  aria-label={`Link to ${social.label}`}
                   rel='noreferrer' 
                   key={index}
                   target="_blank" 

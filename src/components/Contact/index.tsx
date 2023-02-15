@@ -25,7 +25,7 @@ const Contact: React.FC = () => {
           {
             data.socialmedia.map((social, index) => (
               <div key={index} className="contact__information">
-                <a href={social.href} target="_blank" rel="noreferrer">
+                <a href={social.href} aria-label={`Link to ${social.label}`} target="_blank" rel="noreferrer">
                   <i className={`${social.icon} contact__icon`}></i>
                 </a>
                 <div>
@@ -67,6 +67,7 @@ const Contact: React.FC = () => {
                   className="contact__input" 
                   onChange={e => setName(e.target.value)}
                   name='name'
+                  id='name'
                 />
               </div>
 
@@ -80,6 +81,7 @@ const Contact: React.FC = () => {
                   className="contact__input" 
                   onChange={e => setEmail(e.target.value)}
                   name='email'
+                  id='email'
                 />
               </div>
             </div>
@@ -94,6 +96,7 @@ const Contact: React.FC = () => {
                 className="contact__input" 
                 onChange={e => setProject(e.target.value)}
                 name='project'
+                id='project'
               />
             </div>
             

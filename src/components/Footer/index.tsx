@@ -23,7 +23,7 @@ const Footer: React.FC = () => {
             {
               data.menu.map((item, index) => (
                 <li key={index}>
-                  <a href={item.href} className="footer__link">{item.text}</a>
+                  <a href={item.href} aria-label={`Link to ${item.text}`} className="footer__link">{item.text}</a>
                 </li>
               ))
             }
@@ -33,6 +33,7 @@ const Footer: React.FC = () => {
             {
               data.socialmedia.map((item, index) => (
                 <a key={index} 
+                  aria-label={`Link to ${item.label}`}
                   href={item.href} 
                   target="_blank" 
                   className="footer__social" 
@@ -49,7 +50,7 @@ const Footer: React.FC = () => {
           Based on <a href="https://github.com/bedimcode/responsive-portfolio-website-Alexa" 
             target="_blank" rel="noreferrer"
           > Responsive Personal Website Alexa </a> 
-          by <a href=" https://github.com/bedimcode" target="_blank"> Bedimcode </a>
+          by <a href=" https://github.com/bedimcode" target="_blank" className='bedimcode'> Bedimcode </a>
           <br />
           Copyright &#169; Eduardo Fertig Bastos. All rights reserved.
             </p>

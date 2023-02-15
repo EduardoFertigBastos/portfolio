@@ -2,10 +2,12 @@ const socialmedia = [
   {
     href: 'https://www.linkedin.com/in/eduardo-fertig-bastos/',
     icon: 'uil uil-linkedin',
+    label: 'LinkedIn',
   },
   {
     href: 'https://github.com/EduardoFertigBastos',
     icon: 'uil uil-github',
+    label: 'Github',
   }
 ];
 
