@@ -36,7 +36,7 @@ export const enAnalysis = {
 };
 
 export const ptAnalysis = {
-  title: "Add Posts",
+  title: "Análise de Repositórios",
   description: `Este projeto de desenvolvimento web é uma plataforma avançada para a realização de buscas de repositórios no GitHub. Utilizando as tecnologias React JS, TypeScript, CSS, Styled Components e HTML, este projeto oferece uma solução eficiente e intuitiva para os usuários.\n\n
 
 	A funcionalidade de busca permite aos usuários procurarem por repositórios do GitHub utilizando a API do GitHub, oferecendo uma ampla gama de resultados precisos. Após a realização da busca, os resultados são apresentados em uma lista organizada, permitindo que os usuários cliquem em um certo repositório e sejam direcionados para uma página detalhada acerca do mesmo.\n\n

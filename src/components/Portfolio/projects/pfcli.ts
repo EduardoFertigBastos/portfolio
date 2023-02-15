@@ -49,7 +49,7 @@ const images = [
 ];
 
 export const enPfcli = {
-  title: "Add Posts",
+  title: "Points for Special Diet People",
   description: `This is a web application that provides a platform for registering establishments and their associated data, including their geographic coordinates through a map, and their products related to different categories for people with food intolerances (such as celiacs, lactose intolerants, and diabetics).\n\n
 
 	The main screen of the system is a map that starts at the user's current location and searches for all available establishments within a 10 km radius, displaying their image and name with a marker on the map. When an establishment is clicked, its most important data, such as its address, email, telephone numbers, name, and all of its products, is loaded into a modal for the user to view.\n\n
