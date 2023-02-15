@@ -55,7 +55,7 @@ const Skills: React.FC = () => {
                     skill.list.map((item, index2) => (
                       <div key={index2} className="skills__data">
                         <div className="skills__titles">
-                          <h3 className="skills__name">{item.name}</h3>
+                          <h2 className="skills__name">{item.name}</h2>
                           <span className="skills__number">{item.level}%</span>
                         </div>
                         <div className="skills__bar">

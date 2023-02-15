@@ -58,7 +58,7 @@ const Home: React.FC = () => {
 
             <div className="home__data">
               <h1 className="home__title">{data.title}</h1>
-              <h3 className="home__subtitle">{data.subtitle}</h3>
+              <h2 className="home__subtitle">{data.subtitle}</h2>
               <p className="home__description"> {data.description}</p>
               <a href="#contact" className="button button--flex">
                 {data.contact} <FiSend className="button__icon"></FiSend>
