@@ -1,15 +1,15 @@
 
-import p1 from "../../../assets/projects/pfcli/1.png";
-import p10 from "../../../assets/projects/pfcli/10.png";
-import p11 from "../../../assets/projects/pfcli/11.png";
-import p2 from "../../../assets/projects/pfcli/2.png";
-import p3 from "../../../assets/projects/pfcli/3.png";
-import p4 from "../../../assets/projects/pfcli/4.png";
-import p5 from "../../../assets/projects/pfcli/5.png";
-import p6 from "../../../assets/projects/pfcli/6.png";
-import p7 from "../../../assets/projects/pfcli/7.png";
-import p8 from "../../../assets/projects/pfcli/8.png";
-import p9 from "../../../assets/projects/pfcli/9.png";
+import p1 from "../../../assets/projects/pfcli/1.webp";
+import p10 from "../../../assets/projects/pfcli/10.webp";
+import p11 from "../../../assets/projects/pfcli/11.webp";
+import p2 from "../../../assets/projects/pfcli/2.webp";
+import p3 from "../../../assets/projects/pfcli/3.webp";
+import p4 from "../../../assets/projects/pfcli/4.webp";
+import p5 from "../../../assets/projects/pfcli/5.webp";
+import p6 from "../../../assets/projects/pfcli/6.webp";
+import p7 from "../../../assets/projects/pfcli/7.webp";
+import p8 from "../../../assets/projects/pfcli/8.webp";
+import p9 from "../../../assets/projects/pfcli/9.webp";
 import {
 	css,
 	html,

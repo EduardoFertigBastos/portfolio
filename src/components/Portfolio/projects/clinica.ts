@@ -1,12 +1,12 @@
 
-import c1 from "../../../assets/projects/clinica/1.png";
-import c2 from "../../../assets/projects/clinica/2.png";
-import c3 from "../../../assets/projects/clinica/3.png";
-import c4 from "../../../assets/projects/clinica/4.png";
-import c5 from "../../../assets/projects/clinica/5.png";
-import c6 from "../../../assets/projects/clinica/6.png";
-import c7 from "../../../assets/projects/clinica/7.png";
-import c8 from "../../../assets/projects/clinica/8.png";
+import c1 from "../../../assets/projects/clinica/1.webp";
+import c2 from "../../../assets/projects/clinica/2.webp";
+import c3 from "../../../assets/projects/clinica/3.webp";
+import c4 from "../../../assets/projects/clinica/4.webp";
+import c5 from "../../../assets/projects/clinica/5.webp";
+import c6 from "../../../assets/projects/clinica/6.webp";
+import c7 from "../../../assets/projects/clinica/7.webp";
+import c8 from "../../../assets/projects/clinica/8.webp";
 import {
 	bootstrap,
 	css,

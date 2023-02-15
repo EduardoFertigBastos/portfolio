@@ -1,9 +1,9 @@
 
-import ecoleta1 from "../../../assets/projects/ecoleta/1.png";
-import ecoleta2 from "../../../assets/projects/ecoleta/2.png";
-import ecoleta3 from "../../../assets/projects/ecoleta/3.png";
-import ecoleta4 from "../../../assets/projects/ecoleta/4.png";
-import ecoleta5 from "../../../assets/projects/ecoleta/5.png";
+import ecoleta1 from "../../../assets/projects/ecoleta/1.webp";
+import ecoleta2 from "../../../assets/projects/ecoleta/2.webp";
+import ecoleta3 from "../../../assets/projects/ecoleta/3.webp";
+import ecoleta4 from "../../../assets/projects/ecoleta/4.webp";
+import ecoleta5 from "../../../assets/projects/ecoleta/5.webp";
 import { css, html, javascript, node, postgresql, react, reactNative, typescript } from "../skills";
 
 const skills = [

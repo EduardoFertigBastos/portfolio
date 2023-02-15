@@ -1,4 +1,4 @@
-import photo from 'assets/me/normal.png';
+import photo from 'assets/me/normal.webp';
 
 const dataset = {
   en: {

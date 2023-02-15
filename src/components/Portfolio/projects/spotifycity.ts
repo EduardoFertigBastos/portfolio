@@ -1,6 +1,6 @@
 
-import s1 from "../../../assets/projects/spotify_city/coordinates.png";
-import s2 from "../../../assets/projects/spotify_city/list.png";
+import s1 from "../../../assets/projects/spotify_city/coordinates.webp";
+import s2 from "../../../assets/projects/spotify_city/list.webp";
 import {
 	css,
 	html,

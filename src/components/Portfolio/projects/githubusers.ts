@@ -1,6 +1,6 @@
 
-import g2 from "../../../assets/projects/github_users/details.png";
-import g1 from "../../../assets/projects/github_users/list.png";
+import g2 from "../../../assets/projects/github_users/details.webp";
+import g1 from "../../../assets/projects/github_users/list.webp";
 import {
 	bootstrap,
 	css,

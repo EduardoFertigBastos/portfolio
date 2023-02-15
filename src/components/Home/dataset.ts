@@ -1,4 +1,4 @@
-import photo from 'assets/me/oculosescuro.png';
+import photo from 'assets/me/oculosescuro.webp';
 import { BsGithub, BsLinkedin } from "react-icons/bs";
 
 const socialmedia = [

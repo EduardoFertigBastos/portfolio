@@ -1,6 +1,6 @@
 
-import analysis1 from "../../../assets/projects/analysis/details.png";
-import analysis2 from "../../../assets/projects/analysis/home.png";
+import analysis1 from "../../../assets/projects/analysis/details.webp";
+import analysis2 from "../../../assets/projects/analysis/home.webp";
 import {
 	css,
 	html,

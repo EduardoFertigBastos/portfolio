@@ -1,7 +1,7 @@
 
-import addpost3 from "../../../assets/projects/addpost/3.png";
-import addpost2 from "../../../assets/projects/addpost/empty.png";
-import addpost from "../../../assets/projects/addpost/filled.png";
+import addpost3 from "../../../assets/projects/addpost/3.webp";
+import addpost2 from "../../../assets/projects/addpost/empty.webp";
+import addpost from "../../../assets/projects/addpost/filled.webp";
 import {
 	css,
 	html,

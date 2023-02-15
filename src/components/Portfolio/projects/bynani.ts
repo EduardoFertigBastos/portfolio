@@ -1,9 +1,9 @@
 
-import photobynani from "../../../assets/projects/bynani/1.png";
-import photobynani2 from "../../../assets/projects/bynani/2.png";
-import photobynani3 from "../../../assets/projects/bynani/3.png";
-import photobynani4 from "../../../assets/projects/bynani/4.png";
-import photobynani5 from "../../../assets/projects/bynani/5.png";
+import photobynani from "../../../assets/projects/bynani/1.webp";
+import photobynani2 from "../../../assets/projects/bynani/2.webp";
+import photobynani3 from "../../../assets/projects/bynani/3.webp";
+import photobynani4 from "../../../assets/projects/bynani/4.webp";
+import photobynani5 from "../../../assets/projects/bynani/5.webp";
 import {
 	bootstrap,
 	css,
