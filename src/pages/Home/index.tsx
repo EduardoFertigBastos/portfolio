@@ -1,4 +1,4 @@
-import React, { ChangeEvent, useCallback, useState } from "react";
+import React from "react";
 
 import './style.css';
 import About from "components/About";
@@ -11,8 +11,6 @@ import Skills from "components/Skills";
 
 
 const HomePage = () => {
-	const [active, setActive] = useState<boolean>(false);
-
 	return (
 		<>
 			<Header></Header>

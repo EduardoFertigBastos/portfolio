@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 
 import { IoIosArrowBack, IoIosArrowForward } from 'react-icons/io';
 
-
 import ModalImage from '../ModalProject/ModalImage';
 
 import { Bolinha, ContainerBolinhas, Img, LeftArrow, RightArrow, Slider,  } from './styles';

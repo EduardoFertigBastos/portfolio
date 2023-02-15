@@ -1,6 +1,4 @@
-import React, { useCallback } from 'react';
-
-import photo from 'assets/me/escuropng.png';
+import React from 'react';
 
 import { useLanguage } from 'hooks/useLanguage';
 

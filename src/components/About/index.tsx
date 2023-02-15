@@ -1,4 +1,4 @@
-import React, { useCallback } from 'react';
+import React from 'react';
 
 import encv from 'assets/resume/en_re.pdf';
 import ptcv from 'assets/resume/pt_cv.pdf';

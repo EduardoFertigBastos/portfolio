@@ -1,5 +1,5 @@
 import { AiOutlineCloseCircle } from "react-icons/ai";
-import styled, { css } from 'styled-components';
+import styled from 'styled-components';
 
 export const CloseButton = styled.div`
   position: absolute;
