@@ -31,12 +31,7 @@ const dataset = {
   pt: {
     title: `Prazer, Eduardo`,
     subtitle: `Desenvolvedor Full Stack`,
-    description: `Sou um desenvolvedor de 21 anos e eternamente um estudante apaixonado. ` 
-      + `Atualmente moro em Rio do Sul, Brasil. Sou uma pessoa calma e comunicativa que gosta `
-      + `de trabalhar em equipe e que procura sempre resolver os problemas, mesmo que sejam `
-      + `extremamente difíceis. Mas não hesito em pedir ajuda quando sei que está além do meu `
-      + `conhecimento atual. Porém, logo em seguida, tirarei um tempo dos meus dias e estudarei `
-      + `o assunto até ter plena consciência do que é, por que aconteceu e como deve ser resolvido.`,
+    description: `Sou um desenvolvedor de 21 anos e eternamente um estudante apaixonado. Atualmente, moro em Rio do Sul, Brasil. Sou uma pessoa calma e comunicativa, que gosta de trabalhar em equipe e sempre procura resolver os problemas, mesmo que sejam extremamente difíceis. No entanto, não hesito em pedir ajuda quando sei que está além do meu conhecimento atual. Logo em seguida, dedicarei um tempo para estudar o assunto até ter plena consciência do que é, por que aconteceu e como deve ser resolvido.`,
     contact: 'Entre em contato',
     scroll: 'Descer',
     profilePhoto: photo,

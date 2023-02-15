@@ -35,13 +35,7 @@ const dataset = {
     title: 'Sobre mim',
     subtitle: 'Uma breve introdução',
     img: 'assets/img/about.jpg',
-    description: `Olá, eu sou Eduardo Fertig Bastos e sou um Desenvolvedor Full-Stack. `
-      + `Tenho 4 anos de experiência e sou formado pela UNIDAVI sistemas de informação, `
-      + `curso esse que iniciei em 2019 e finalizei em 2022. Para trabalhar com back-end `
-      + `estou mais familiarizado com Node.js, Laravel e PHP vanilla. E como ferramentas `
-      + `para utilizar no front-end eu prefiro React JS, porém também utilizo e tenho `
-      + `experiência com  JavaScript vanilla e JQuery. Em relação a banco dados, utilizo `
-      + `principalmente PostgreSQL, porém também tenho experiência com MySQL, SQLite, SQL Server e MongoDB.`,
+    description: `Olá, eu sou Eduardo Fertig Bastos e sou um desenvolvedor Full-Stack. Tenho 4 anos de experiência e sou formado em Sistemas de Informação pela UNIDAVI, curso que iniciei em 2019 e finalizei em 2022. Para trabalhar com back-end, estou mais familiarizado com Node.js, Laravel e PHP vanilla. Em relação às ferramentas para o front-end, prefiro utilizar React JS, porém também tenho experiência com JavaScript vanilla e JQuery. No que se refere a bancos de dados, tenho utilizado principalmente PostgreSQL, mas também possuo experiência com MySQL, SQLite, SQL Server e MongoDB.`,
     description2: 'Caso queira saber mais sobre mim, sinta-se livre para entrar em contato.',
     info: [
       {
