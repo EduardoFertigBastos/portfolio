@@ -11,6 +11,8 @@ import Skills from "components/Skills";
 
 
 const HomePage = () => {
+	document.documentElement.lang = navigator.language;
+	
 	return (
 		<>
 			<Header></Header>
