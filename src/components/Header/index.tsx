@@ -1,5 +1,7 @@
 import React, { useCallback } from 'react';
 
+import brazil from 'assets/lang/brasil.webp'
+import usa from 'assets/lang/usa.webp'
 import { AiOutlineAppstore, AiOutlineClose } from 'react-icons/ai';
 import { BiMoon } from 'react-icons/bi';
 import { MdOutlineGTranslate } from 'react-icons/md';
@@ -7,12 +9,32 @@ import { MdOutlineGTranslate } from 'react-icons/md';
 import { useLanguage } from 'hooks/language';
 
 import dataset from './dataset';
+import { Flag } from './style';
 
 const Header: React.FC = () => {
   
   const { getLanguage, setLanguage } = useLanguage();
   const data = dataset[getLanguage()];
 
+  const handleMenu = useCallback((e: React.MouseEvent<HTMLDivElement>) => {
+    const navMenu = document.getElementById('nav-menu') as HTMLElement,
+      navToggle = document.getElementById('nav-toggle'),
+      navClose = document.getElementById('nav-close')
+
+    if(navToggle){
+      navToggle.addEventListener('click', () => {
+        navMenu.classList.add('show-menu')
+      })
+      navMenu.classList.add('show-menu');
+    }
+
+    if(navClose){
+      navClose.addEventListener('click', () => {
+        navMenu.classList.remove('show-menu')
+      });
+    }
+  }, []);
+  
   const handleTheme = useCallback((e: React.MouseEvent<HTMLDivElement>) => {
     const themeButton = e.target as HTMLDivElement;
     const darkTheme = 'dark-theme';
@@ -66,6 +88,13 @@ const Header: React.FC = () => {
           </div>
           <div onClick={() => setLanguage(getLanguage()  === 'en' ? 'pt' : 'en')}>
             <MdOutlineGTranslate className="change-theme" id="theme-button"></MdOutlineGTranslate>
+          </div>
+          <div>
+            <Flag className='flag-lang' src={getLanguage() === 'en' ? usa : brazil} alt="Idioma" />
+          </div>
+          
+          <div className="nav__toggle" id="nav-toggle" onClick={handleMenu}>
+              <AiOutlineAppstore className="nav__icon"></AiOutlineAppstore>
           </div>
         </div>
       </nav>
