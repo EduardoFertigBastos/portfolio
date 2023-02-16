@@ -19,7 +19,7 @@ const Portfolio: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isOpenImage, setIsOpenImage] = useState(false);
   const [image, setImage] = useState<string>();
-  const [project, setProject] = useState<Project>();
+  const [project, setProject] = useState<string>('');
 
 
   const getDescriptionText = useCallback((description: string) => {
@@ -27,7 +27,7 @@ const Portfolio: React.FC = () => {
       return description;
     }
     let reduced = description.slice(0, LIMIT_CHARACTERS_TO_SHOW_ON_RESUMED_DESCRIPTION);
-    let lastOccurrence = reduced.lastIndexOf(" ");
+    let lastOccurrence = reduced.lastIndexOf(' ');
     let result = reduced.substring(0, lastOccurrence);
 
     return result + '...';
@@ -71,7 +71,7 @@ const Portfolio: React.FC = () => {
                 </p>
                 <button
                   className="button button--flex button--small portfolio__button"
-                  onClick={() => handleSeeMore(project)}
+                  onClick={() => handleSeeMore(project.id)}
                 >
                   { data.seemore }
                   <BiRightArrowAlt className="button__icon"></BiRightArrowAlt>

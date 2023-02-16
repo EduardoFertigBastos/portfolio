@@ -2,6 +2,9 @@ import React, { useCallback } from "react";
 
 import Modal from "react-modal";
 
+import { useLanguage } from "hooks/language";
+
+import dataset from "../dataset";
 import ImageSlider from "../ImageSlider";
 import Project from "../interface/Project";
 
@@ -44,12 +47,16 @@ const customStyles = {
 interface Props {
 	isOpen: boolean;
 	setIsOpen: (isOpen: boolean) => void;
-	project?: Project;
+	project: string;
 }
 
 Modal.setAppElement("#root");
 
-const ModalProject: React.FC<Props> = ({ isOpen, setIsOpen, project }) => {
+const ModalProject: React.FC<Props> = ({ isOpen, setIsOpen, project: projectId }) => {
+	const { getLanguage } = useLanguage();
+  const data = dataset[getLanguage()];
+
+	const project = data.projects.find((project) => project.id === projectId);
 	function closeModal() {
 		setIsOpen(false);
 	}
