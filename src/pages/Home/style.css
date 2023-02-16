@@ -414,7 +414,7 @@ img {
 
 /*==================== ABOUT ====================*/
 .about__img {
-    aspect-ratio: attr(width) / attr(height);
+    width: attr(width);
     border-radius: 1rem;
     justify-self: center;
     align-self: top;
