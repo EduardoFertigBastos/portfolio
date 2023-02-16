@@ -25,6 +25,7 @@ const images = [
 ];
 
 export const enAnalysis = {
+	id: 'analysis',
   title: "Repositories Analysis",
   description: `This web development project is an advanced platform for searching GitHub repositories. Using cutting-edge technologies like React JS, TypeScript, CSS, Styled Components, and HTML, this project provides a sleek and intuitive solution for users.\n\n
 
@@ -36,6 +37,7 @@ export const enAnalysis = {
 };
 
 export const ptAnalysis = {
+	id: 'analysis',
   title: "Análise de Repositórios",
   description: `Este projeto de desenvolvimento web é uma plataforma avançada para a realização de buscas de repositórios no GitHub. Utilizando as tecnologias React JS, TypeScript, CSS, Styled Components e HTML, este projeto oferece uma solução eficiente e intuitiva para os usuários.\n\n
 

@@ -27,6 +27,7 @@ const images = [
 ];
 
 export const enSpotifyCity = {
+	id: 'spotifycity',
   title: "Playlist based on City's temperature",
   description: `This project is a web application that provides weather information and music based on the desired city's temperature. It features a backend developed with Node.js and TypeScript, which has integrations with the OpenWeatherMap and Spotify APIs to get the city's temperature and create a playlist, respectively.\n\n
 
@@ -38,6 +39,7 @@ export const enSpotifyCity = {
 };
 
 export const ptSpotifyCity = {
+	id: 'spotifycity',
   title: "Playlist baseada na temperatura da cidade",
   description: `Este projeto é uma aplicação web que fornece informações climáticas e música baseada na temperatura da cidade desejada. Ele conta com um backend desenvolvido com Node.js e TypeScript, que possui integrações com as APIs do OpenWeatherMap e do Spotify para obter a temperatura da cidade e criar uma playlist, respectivamente. \n\n
 

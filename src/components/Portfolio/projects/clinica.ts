@@ -41,6 +41,7 @@ const images = [
 ];
 
 export const enClinica = {
+	id: 'clinica',
   title: "Psychologist Clinic Management",
   description: `This psychology appointment management website is an advanced platform built with the technologies Laravel, PHP, JavaScript, jQuery, CSS, Bootstrap, HTML and PostgreSQL. With a responsive and intuitive interface, the application provides mental health professionals with an efficient solution for managing clients and appointments.\n\n
 
@@ -52,6 +53,7 @@ export const enClinica = {
 };
 
 export const ptClinica = {
+	id: 'clinica',
   title: "Gerenciamento de Clínica de Psicologia",
   description: `Este site de gerenciamento de consultas psicológicas é uma plataforma avançada construída com as tecnologias Laravel, PHP, JavaScript, jQuery, CSS, Bootstrap, HTML e PostgreSQL. Com uma interface responsiva e intuitiva, a aplicação oferece aos profissionais de saúde mental uma solução eficiente para o gerenciamento de clientes e consultas. \n\n
 

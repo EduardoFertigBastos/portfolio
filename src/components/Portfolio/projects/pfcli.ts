@@ -49,6 +49,7 @@ const images = [
 ];
 
 export const enPfcli = {
+	id: 'pfcli',
   title: "Points for Special Diet People",
   description: `This is a web application that provides a platform for registering establishments and their associated data, including their geographic coordinates through a map, and their products related to different categories for people with food intolerances (such as celiacs, lactose intolerants, and diabetics).\n\n
 
@@ -62,6 +63,7 @@ export const enPfcli = {
 };
 
 export const ptPfcli = {
+	id: 'pfcli',
   title: "Pontos para Pessoas com Dietas Especiais",
   description: `Esta é uma aplicação web que fornece uma plataforma para registrar estabelecimentos e seus dados, incluindo suas coordenadas geográficas através de um mapa e também os seus produtos, que são relacionados a diferentes categorias para pessoas com intolerância alimentar (como celíacos, intolerantes à lactose e diabéticos).\n\n
 

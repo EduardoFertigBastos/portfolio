@@ -26,6 +26,7 @@ const images = [
 ];
 
 export const enEcoleta = {
+	id: "ecoleta",
   title: "Ecoleta",
   description: `Ecoleta is an eco-friendly waste management platform, created to connect companies and waste collection entities for organic and inorganic waste to people looking to dispose of their waste in a sustainable manner.\n\n
 
@@ -39,6 +40,7 @@ export const enEcoleta = {
 };
 
 export const ptEcoleta = {
+	id: "ecoleta",
   title: "Ecoleta",
   description: `Ecoleta é uma plataforma de gerenciamento de resíduos ecológicos, criada para conectar empresas e entidades de coleta de resíduos orgânicos e inorgânicos a pessoas que buscam descartar seus resíduos de forma sustentável.\n\n
 

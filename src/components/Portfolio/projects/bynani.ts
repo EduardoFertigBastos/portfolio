@@ -35,6 +35,7 @@ const images = [
 ];
 
 export const enByNani = {
+	id: "bynani",
   title: "ByNani",
   description: `Discover the Art: The section dedicated to showcasing the craftswoman allows customers to learn about the passion and history behind the felt dolls, offering them a unique and authentic view of the products.\n\n
 
@@ -48,6 +49,7 @@ export const enByNani = {
 };
 
 export const ptByNani = {
+	id: "bynani",
   title: "ByNani",
   description: `Conheça a arte: A seção dedicada à apresentação da artesã permite aos clientes conhecerem a paixão e a história por trás das bonecas de feltro, oferecendo-lhes uma visão única e autêntica sobre os produtos.\n\n
 

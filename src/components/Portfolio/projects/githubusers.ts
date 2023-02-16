@@ -27,6 +27,7 @@ const images = [
 ];
 
 export const enGithubUsers = {
+	id: 'githubusers',
   title: "Github Users",
   description: `This project is a web application to display GitHub user information. It consists of a backend built with Node.js and TypeScript, with integration to the GitHub API to retrieve the data. The project's front-end was developed using React JS and TypeScript and features a list of all GitHub users with pagination.\n\n
 
@@ -40,6 +41,7 @@ export const enGithubUsers = {
 };
 
 export const ptGithubUsers = {
+	id: 'githubusers',
   title: "Usuários do Github",
   description: `Este projeto é uma aplicação web para exibir informações de usuários do GitHub. Ele é composto por um backend construído com Node.js e TypeScript, com integração à API do GitHub para obter os dados. O front-end do projeto foi desenvolvido utilizando React JS e TypeScript e apresenta uma lista de todos os usuários do GitHub com paginação.\n\n
 

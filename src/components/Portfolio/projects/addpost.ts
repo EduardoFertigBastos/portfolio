@@ -27,6 +27,7 @@ const images = [
 ];
 
 export const enAddPosts = {
+	id: 'addposts',
   title: "Add Posts",
   description: `This project is a modern and intuitive solution for content creation and management, built with the most up-to-date development technologies including React JS, TypeScript, CSS, Styled Components, and HTML. \n\n
 
@@ -38,6 +39,7 @@ export const enAddPosts = {
 };
 
 export const ptAddPosts = {
+	id: 'addposts',
   title: "Add Posts",
   description: `Este projeto é uma solução moderna e intuitiva para a criação e gerenciamento de conteúdo, construída com as tecnologias de desenvolvimento mais atualizadas, incluindo React JS, TypeScript, CSS, Styled Components e HTML. \n\n
 
