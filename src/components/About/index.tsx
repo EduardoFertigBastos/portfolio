@@ -4,14 +4,14 @@ import encv from 'assets/resume/en_re.pdf';
 import ptcv from 'assets/resume/pt_cv.pdf';
 import { BsDownload } from 'react-icons/bs';
 
-import { useLanguage } from 'hooks/useLanguage';
+import { useLanguage } from 'hooks/language';
 
 import dataset from './dataset';
 
 const About: React.FC = () => {
 
-  const lang = useLanguage();
-  const data = dataset[lang];
+  const { getLanguage } = useLanguage();
+  const data = dataset[getLanguage()];
 
   return (
     <section className="about section" id="about">
@@ -41,8 +41,8 @@ const About: React.FC = () => {
                 
 
             <div className="about__buttons">
-              <a href={lang === 'pt' ? ptcv : encv} 
-                download={lang === 'pt' ? 'pt_cv.pdf' : 'en_cv.pdf'}
+              <a href={getLanguage() === 'pt' ? ptcv : encv} 
+                download={getLanguage() === 'pt' ? 'pt_cv.pdf' : 'en_cv.pdf'}
                 rel="noreferrer"
                 target="_blank" 
                 className="button button--flex"

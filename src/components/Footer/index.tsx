@@ -1,13 +1,13 @@
 import React from 'react';
 
-import { useLanguage } from 'hooks/useLanguage';
+import { useLanguage } from 'hooks/language';
 
 import dataset from './dataset';
 
 const Footer: React.FC = () => {
 
-  const lang = useLanguage();
-  const data = dataset[lang];
+  const { getLanguage } = useLanguage();
+  const data = dataset[getLanguage()];
 
   return (
     <footer className="footer">

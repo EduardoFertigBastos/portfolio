@@ -2,15 +2,16 @@ import React, { useCallback } from 'react';
 
 import { AiOutlineAppstore, AiOutlineClose } from 'react-icons/ai';
 import { BiMoon } from 'react-icons/bi';
+import { MdOutlineGTranslate } from 'react-icons/md';
 
-import { useLanguage } from 'hooks/useLanguage';
+import { useLanguage } from 'hooks/language';
 
 import dataset from './dataset';
 
 const Header: React.FC = () => {
   
-  const lang = useLanguage();
-  const data = dataset[lang];
+  const { getLanguage, setLanguage } = useLanguage();
+  const data = dataset[getLanguage()];
 
   const handleTheme = useCallback((e: React.MouseEvent<HTMLDivElement>) => {
     const themeButton = e.target as HTMLDivElement;
@@ -59,10 +60,12 @@ const Header: React.FC = () => {
           </ul>
           <AiOutlineClose className="nav__close nav__icon" id="nav-close"></AiOutlineClose>
         </div>
-        <div className="nav__btns" onClick={handleTheme}>
-          <BiMoon className="change-theme" id="theme-button"></BiMoon>
-          <div className="nav__toggle" id="nav-toggle">
-              <AiOutlineAppstore className="nav__icon"></AiOutlineAppstore>
+        <div className="nav__btns">
+          <div onClick={handleTheme}>
+            <BiMoon className="change-theme" id="theme-button" ></BiMoon>
+          </div>
+          <div onClick={() => setLanguage(getLanguage()  === 'en' ? 'pt' : 'en')}>
+            <MdOutlineGTranslate className="change-theme" id="theme-button"></MdOutlineGTranslate>
           </div>
         </div>
       </nav>

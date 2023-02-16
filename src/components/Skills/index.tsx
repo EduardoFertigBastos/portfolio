@@ -2,14 +2,14 @@ import React, { useCallback, useState } from 'react';
 
 import { FaAngleDown } from 'react-icons/fa';
 
-import { useLanguage } from 'hooks/useLanguage';
+import { useLanguage } from 'hooks/language';
 
 import dataset from './dataset';
 
 const Skills: React.FC = () => {
 
-  const lang = useLanguage();
-  const data = dataset[lang];
+  const { getLanguage } = useLanguage();
+  const data = dataset[getLanguage()];
 
   const [actives, setActives] = useState<number[]>([]);
 

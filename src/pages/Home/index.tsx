@@ -9,9 +9,12 @@ import Home from "components/Home";
 import Portfolio from "components/Portfolio";
 import Skills from "components/Skills";
 
+import { useLanguage } from "hooks/language";
+
 
 const HomePage = () => {
-	document.documentElement.lang = navigator.language;
+	const { language } = useLanguage();
+	document.documentElement.lang = language;
 	
 	return (
 		<>

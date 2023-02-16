@@ -4,14 +4,14 @@ import { BiMouse } from 'react-icons/bi';
 import { BsArrowDownShort } from 'react-icons/bs';
 import { FiSend } from 'react-icons/fi';
 
-import { useLanguage } from 'hooks/useLanguage';
+import { useLanguage } from 'hooks/language';
 
 import dataset from './dataset';
 
 const Home: React.FC = () => {
 
-  const lang = useLanguage();
-  const data = dataset[lang];
+  const { getLanguage } = useLanguage();
+  const data = dataset[getLanguage()];
 
   return (
     <section className="home section" id="home">

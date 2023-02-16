@@ -2,7 +2,7 @@ import React, { useCallback, useState } from 'react';
 
 import { BiRightArrowAlt } from 'react-icons/bi';
 
-import { useLanguage } from 'hooks/useLanguage';
+import { useLanguage } from 'hooks/language';
 
 import dataset from './dataset';
 import Project from './interface/Project';
@@ -13,8 +13,9 @@ const LIMIT_CHARACTERS_TO_SHOW_ON_RESUMED_DESCRIPTION = 220;
 
 const Portfolio: React.FC = () => {
 
-  const lang = useLanguage();
-  const data = dataset[lang];
+  const { getLanguage } = useLanguage();
+  const data = dataset[getLanguage()];
+
   const [isOpen, setIsOpen] = useState(false);
   const [isOpenImage, setIsOpenImage] = useState(false);
   const [image, setImage] = useState<string>();

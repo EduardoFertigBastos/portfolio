@@ -3,14 +3,14 @@ import React, { useState } from 'react';
 import { BiMap } from 'react-icons/bi';
 import { FiSend } from 'react-icons/fi';
 
-import { useLanguage } from 'hooks/useLanguage';
+import { useLanguage } from 'hooks/language';
 
 import dataset from './dataset';
 
 const Contact: React.FC = () => {
 
-  const lang = useLanguage();
-  const data = dataset[lang];
+  const { getLanguage } = useLanguage();
+  const data = dataset[getLanguage()];
 
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
