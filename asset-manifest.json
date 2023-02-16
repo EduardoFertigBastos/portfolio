@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.7ee3fb18.css",
-    "main.js": "/portfolio/static/js/main.c0b993c4.js",
+    "main.js": "/portfolio/static/js/main.c58afb23.js",
+    "static/media/10.webp": "/portfolio/static/media/10.642b89b43e4de6f31f06.webp",
     "static/media/normal.webp": "/portfolio/static/media/normal.3452d7cf67a768a01327.webp",
+    "static/media/3.webp": "/portfolio/static/media/3.ae28b459acd4c4e211b4.webp",
     "static/media/1.webp": "/portfolio/static/media/1.d9005f9f123a76382934.webp",
+    "static/media/11.webp": "/portfolio/static/media/11.7d6b58710bb29497864f.webp",
     "static/media/9.webp": "/portfolio/static/media/9.89b3ceffe8b0b098c533.webp",
-    "static/media/10.webp": "/portfolio/static/media/10.23710aa91a25ca4977a0.webp",
     "static/media/oculosescuro.webp": "/portfolio/static/media/oculosescuro.1c73091b40e32fba38c0.webp",
     "static/media/2.webp": "/portfolio/static/media/2.f2827518f6dd6a17ecf0.webp",
     "static/media/details.webp": "/portfolio/static/media/details.d7e9d4e06300f228c4bb.webp",
-    "static/media/3.webp": "/portfolio/static/media/3.ae28b459acd4c4e211b4.webp",
     "static/media/pt_cv.pdf": "/portfolio/static/media/pt_cv.b585bc05fe63d24ba206.pdf",
     "static/media/en_re.pdf": "/portfolio/static/media/en_re.6d7da63455b86be37bbf.pdf",
-    "static/media/11.webp": "/portfolio/static/media/11.672f7ef30a13c4904b78.webp",
     "static/media/6.webp": "/portfolio/static/media/6.ffe008cfece763546719.webp",
     "static/media/filled.webp": "/portfolio/static/media/filled.01f21b06ab8d61e13f92.webp",
     "static/media/5.webp": "/portfolio/static/media/5.3d34e5527df9bb6d823c.webp",
@@ -25,10 +25,10 @@
     "static/media/coordinates.webp": "/portfolio/static/media/coordinates.0f24ea8ec696d6f53843.webp",
     "index.html": "/portfolio/index.html",
     "main.7ee3fb18.css.map": "/portfolio/static/css/main.7ee3fb18.css.map",
-    "main.c0b993c4.js.map": "/portfolio/static/js/main.c0b993c4.js.map"
+    "main.c58afb23.js.map": "/portfolio/static/js/main.c58afb23.js.map"
   },
   "entrypoints": [
     "static/css/main.7ee3fb18.css",
-    "static/js/main.c0b993c4.js"
+    "static/js/main.c58afb23.js"
   ]
 }
