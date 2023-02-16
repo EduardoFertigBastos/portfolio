@@ -19,7 +19,7 @@ const About: React.FC = () => {
       <span className="section__subtitle">{data.subtitle}</span>
 
       <div className="about__container container">
-        <img src={data.photo} alt="Eu" className="about__img" />
+        <img src={data.photo} alt="Eu" width="300" height="300" className="about__img" />
 
           <div className="about__data">
             <p className="about__description">
