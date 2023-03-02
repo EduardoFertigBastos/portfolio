@@ -4,6 +4,7 @@ import { enByNani, ptByNani } from './projects/bynani';
 import { enClinica, ptClinica } from './projects/clinica';
 import { enEcoleta, ptEcoleta } from './projects/ecoleta';
 import { enGithubUsers, ptGithubUsers } from './projects/githubusers';
+import { enGobarber, ptGobarber } from './projects/gobarber';
 import { enPfcli, ptPfcli } from './projects/pfcli';
 import { enSpotifyCity, ptSpotifyCity } from './projects/spotifycity';
 
@@ -18,6 +19,7 @@ const dataset = {
       enClinica,
       enByNani,
       enEcoleta,
+      enGobarber,
       enAddPosts,
       enAnalysis,
       enSpotifyCity,
@@ -34,6 +36,7 @@ const dataset = {
       ptClinica,
       ptByNani,
       ptEcoleta,
+      ptGobarber,
       ptAddPosts,
       ptAnalysis,
       ptSpotifyCity,
