@@ -1,11 +1,9 @@
 
-import s1 from "../../../assets/projects/gobarber/1.png";
-import s2 from "../../../assets/projects/gobarber/2.png";
-import s3 from "../../../assets/projects/gobarber/3.png";
-import s4 from "../../../assets/projects/gobarber/4.png";
-import s5 from "../../../assets/projects/gobarber/5.png";
-import s6 from "../../../assets/projects/gobarber/6.png";
-import s7 from "../../../assets/projects/gobarber/7.png";
+import s1 from "../../../assets/projects/gobarber/1.webp";
+import s2 from "../../../assets/projects/gobarber/2.webp";
+import s3 from "../../../assets/projects/gobarber/3.webp";
+import s4 from "../../../assets/projects/gobarber/4.webp";
+import s7 from "../../../assets/projects/gobarber/7.webp";
 import {
 	aws,
 	css,
@@ -39,8 +37,6 @@ const images = [
 	s2,
 	s3,
 	s4,
-	s5,
-	s6,
 	s7
 ];
 
