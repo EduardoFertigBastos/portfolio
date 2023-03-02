@@ -1,7 +1,9 @@
 import { BsFillBootstrapFill } from 'react-icons/bs'
 import { FaLaravel, FaNodeJs, FaPhp, FaReact } from 'react-icons/fa'
 import {
+  SiAmazonaws,
   SiCss3,
+  SiDocker,
   SiHtml5,
   SiJavascript,
   SiJquery,
@@ -14,6 +16,11 @@ import {
 import Skill from './interface/Skill'
 
 
+export const aws: Skill = {
+  name: 'AWS',
+  icon: SiAmazonaws
+}
+
 export const bootstrap: Skill = {
   name: 'Bootstrap',
   icon: BsFillBootstrapFill
@@ -22,6 +29,11 @@ export const bootstrap: Skill = {
 export const css: Skill = {
   name: 'CSS 3',
   icon: SiCss3
+}
+
+export const docker: Skill = {
+  name: 'Docker',
+  icon: SiDocker
 }
 
 export const html: Skill = {

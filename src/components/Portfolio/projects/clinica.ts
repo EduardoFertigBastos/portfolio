@@ -10,6 +10,7 @@ import c8 from "../../../assets/projects/clinica/8.webp";
 import {
 	bootstrap,
 	css,
+	docker,
 	html,
 	javascript,
 	jquery,
@@ -23,6 +24,7 @@ const skills = [
 	php,
 	javascript,
 	jquery,
+	docker,
 	html,
 	css,
 	bootstrap,

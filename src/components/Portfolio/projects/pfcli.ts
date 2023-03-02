@@ -11,7 +11,9 @@ import p7 from "../../../assets/projects/pfcli/7.webp";
 import p8 from "../../../assets/projects/pfcli/8.webp";
 import p9 from "../../../assets/projects/pfcli/9.webp";
 import {
+	aws,
 	css,
+	docker,
 	html,
 	javascript,
 	materialui,
@@ -27,6 +29,8 @@ const skills = [
 	react,
 	typescript,
 	javascript,
+	docker,
+	aws,
 	css,
 	styledComponents,
 	materialui,
