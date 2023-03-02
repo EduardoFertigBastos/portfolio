@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.489e8fb9.css",
-    "main.js": "/portfolio/static/js/main.4663c18c.js",
+    "main.js": "/portfolio/static/js/main.6e3b8fe6.js",
+    "static/media/pt_cv.pdf": "/portfolio/static/media/pt_cv.6f0f6c935a9b82d641b3.pdf",
+    "static/media/en_re.pdf": "/portfolio/static/media/en_re.0a0cef79da4acfe87a53.pdf",
     "static/media/10.webp": "/portfolio/static/media/10.642b89b43e4de6f31f06.webp",
     "static/media/normal.webp": "/portfolio/static/media/normal.3452d7cf67a768a01327.webp",
-    "static/media/3.webp": "/portfolio/static/media/3.ae28b459acd4c4e211b4.webp",
+    "static/media/3.webp": "/portfolio/static/media/3.74e70f658e7864b2f138.webp",
     "static/media/1.webp": "/portfolio/static/media/1.d9005f9f123a76382934.webp",
     "static/media/11.webp": "/portfolio/static/media/11.7d6b58710bb29497864f.webp",
     "static/media/9.webp": "/portfolio/static/media/9.89b3ceffe8b0b098c533.webp",
     "static/media/oculosescuro.webp": "/portfolio/static/media/oculosescuro.1c73091b40e32fba38c0.webp",
     "static/media/2.webp": "/portfolio/static/media/2.f2827518f6dd6a17ecf0.webp",
     "static/media/details.webp": "/portfolio/static/media/details.d7e9d4e06300f228c4bb.webp",
-    "static/media/pt_cv.pdf": "/portfolio/static/media/pt_cv.b585bc05fe63d24ba206.pdf",
-    "static/media/en_re.pdf": "/portfolio/static/media/en_re.6d7da63455b86be37bbf.pdf",
     "static/media/6.webp": "/portfolio/static/media/6.ffe008cfece763546719.webp",
     "static/media/filled.webp": "/portfolio/static/media/filled.01f21b06ab8d61e13f92.webp",
     "static/media/5.webp": "/portfolio/static/media/5.3d34e5527df9bb6d823c.webp",
-    "static/media/7.webp": "/portfolio/static/media/7.32cd6f17c10890d2e081.webp",
+    "static/media/7.webp": "/portfolio/static/media/7.2a1983f7c49528f06cb4.webp",
     "static/media/8.webp": "/portfolio/static/media/8.4ff0d7ecd8ac16b2e9b0.webp",
     "static/media/empty.webp": "/portfolio/static/media/empty.a2e5d465f989ce760480.webp",
-    "static/media/4.webp": "/portfolio/static/media/4.e0cb18e21b3a32ceb6dc.webp",
+    "static/media/4.webp": "/portfolio/static/media/4.488a73920e03104d399b.webp",
     "static/media/home.webp": "/portfolio/static/media/home.8aa59f7d6c29f4aad452.webp",
     "static/media/list.webp": "/portfolio/static/media/list.b2df3954e3d76c6f441c.webp",
     "static/media/coordinates.webp": "/portfolio/static/media/coordinates.0f24ea8ec696d6f53843.webp",
@@ -27,10 +27,10 @@
     "static/media/usa.webp": "/portfolio/static/media/usa.a94f661bf33fb3e9d095.webp",
     "index.html": "/portfolio/index.html",
     "main.489e8fb9.css.map": "/portfolio/static/css/main.489e8fb9.css.map",
-    "main.4663c18c.js.map": "/portfolio/static/js/main.4663c18c.js.map"
+    "main.6e3b8fe6.js.map": "/portfolio/static/js/main.6e3b8fe6.js.map"
   },
   "entrypoints": [
     "static/css/main.489e8fb9.css",
-    "static/js/main.4663c18c.js"
+    "static/js/main.6e3b8fe6.js"
   ]
 }
