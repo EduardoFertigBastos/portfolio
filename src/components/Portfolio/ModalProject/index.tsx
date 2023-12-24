@@ -36,7 +36,7 @@ const customStyles = {
 		padding: "0px",
 		width: "80%",
 		height: "80%",
-		borderRadius: "36px",
+		borderRadius: "4px",
 		marginRight: "-50%",
 		transform: "translate(-50%, -50%)",
 	},
