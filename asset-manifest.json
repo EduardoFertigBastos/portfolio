@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.489e8fb9.css",
-    "main.js": "/portfolio/static/js/main.0d395331.js",
+    "main.css": "/portfolio/static/css/main.ef7b7249.css",
+    "main.js": "/portfolio/static/js/main.b87931fb.js",
     "static/media/curriculo-eduardofertigbastos.pdf": "/portfolio/static/media/curriculo-eduardofertigbastos.8909df23b7cac6a88160.pdf",
     "static/media/resume-eduardofertigbastos.pdf": "/portfolio/static/media/resume-eduardofertigbastos.2805bc56c01b2c5d7e74.pdf",
     "static/media/10.webp": "/portfolio/static/media/10.642b89b43e4de6f31f06.webp",
@@ -35,11 +35,11 @@
     "static/media/login.webp": "/portfolio/static/media/login.fe8af073106f505f2136.webp",
     "static/media/usa.webp": "/portfolio/static/media/usa.a94f661bf33fb3e9d095.webp",
     "index.html": "/portfolio/index.html",
-    "main.489e8fb9.css.map": "/portfolio/static/css/main.489e8fb9.css.map",
-    "main.0d395331.js.map": "/portfolio/static/js/main.0d395331.js.map"
+    "main.ef7b7249.css.map": "/portfolio/static/css/main.ef7b7249.css.map",
+    "main.b87931fb.js.map": "/portfolio/static/js/main.b87931fb.js.map"
   },
   "entrypoints": [
-    "static/css/main.489e8fb9.css",
-    "static/js/main.0d395331.js"
+    "static/css/main.ef7b7249.css",
+    "static/js/main.b87931fb.js"
   ]
 }
