@@ -18,7 +18,7 @@ const dataset = {
   en: {
     title: `Hi, I'm Eduardo`,
     subtitle: `I'm a Full Stack Developer`,
-    description: ` I'm a 21 years old developer and eternally a passioned student. `
+    description: ` I'm a 22 years old developer and eternally a passioned student. `
       + `I currently live in Rio do Sul, Brazil. I am a calm and communicative person ` 
       + `who likes to work in a team and who always tries to solve problems, even if `
       + `they are extremely difficult. But I don't hesitate to ask for help when I know `
@@ -34,7 +34,7 @@ const dataset = {
   pt: {
     title: `Prazer, Eduardo`,
     subtitle: `Desenvolvedor Full Stack`,
-    description: `Sou um desenvolvedor de 21 anos e eternamente um estudante apaixonado. Atualmente, moro em Rio do Sul, Brasil. Sou uma pessoa calma e comunicativa, que gosta de trabalhar em equipe e sempre procura resolver os problemas, mesmo que sejam extremamente difíceis. No entanto, não hesito em pedir ajuda quando sei que está além do meu conhecimento atual. Logo em seguida, dedicarei um tempo para estudar o assunto até ter plena consciência do que é, por que aconteceu e como deve ser resolvido.`,
+    description: `Sou um desenvolvedor de 22 anos e eternamente um estudante apaixonado. Atualmente, moro em Rio do Sul, Brasil. Sou uma pessoa calma e comunicativa, que gosta de trabalhar em equipe e sempre procura resolver os problemas, mesmo que sejam extremamente difíceis. No entanto, não hesito em pedir ajuda quando sei que está além do meu conhecimento atual. Logo em seguida, dedicarei um tempo para estudar o assunto até ter plena consciência do que é, por que aconteceu e como deve ser resolvido.`,
     contact: 'Entre em contato',
     scroll: 'Descer',
     profilePhoto: photo,

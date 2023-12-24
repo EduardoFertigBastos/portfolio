@@ -8,9 +8,10 @@ import {
   SiJavascript,
   SiJquery,
   SiMaterialui,
+  SiNextdotjs,
   SiPostgresql,
   SiStyledcomponents,
-  SiTypescript
+  SiTypescript,
 } from 'react-icons/si'
 
 import Skill from './interface/Skill'
@@ -59,6 +60,11 @@ export const laravel: Skill = {
 export const materialui: Skill = {
   name: 'Material UI',
   icon: SiMaterialui
+}
+
+export const next: Skill = {
+  name: 'Next.js',
+  icon: SiNextdotjs
 }
 
 export const node: Skill = {

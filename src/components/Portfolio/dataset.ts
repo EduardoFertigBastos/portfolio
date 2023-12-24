@@ -1,5 +1,6 @@
 import { enAddPosts, ptAddPosts } from './projects/addpost';
 import { enAnalysis, ptAnalysis } from './projects/analysis';
+import { enFormAnonymous, ptFormAnonymous } from './projects/anonymousform';
 import { enByNani, ptByNani } from './projects/bynani';
 import { enClinica, ptClinica } from './projects/clinica';
 import { enEcoleta, ptEcoleta } from './projects/ecoleta';
@@ -15,15 +16,16 @@ const dataset = {
     subtitle2: ' to see all.',
     seemore: 'See more',
     projects: [
+      enFormAnonymous,
       enPfcli,
       enClinica,
       enByNani,
       enEcoleta,
       enGobarber,
       enAddPosts,
-      enAnalysis,
-      enSpotifyCity,
-      enGithubUsers,
+      // enAnalysis,
+      // enSpotifyCity,
+      // enGithubUsers,
     ]
   },
   pt: {
@@ -32,15 +34,16 @@ const dataset = {
     subtitle2: ' para ver tudo.',
     seemore: 'Veja mais',
     projects: [
+      ptFormAnonymous,
       ptPfcli,
       ptClinica,
       ptByNani,
       ptEcoleta,
       ptGobarber,
       ptAddPosts,
-      ptAnalysis,
-      ptSpotifyCity,
-      ptGithubUsers,
+      // ptAnalysis,
+      // ptSpotifyCity,
+      // ptGithubUsers,
 
     ]
   },

@@ -1,7 +1,7 @@
 import React from 'react';
 
-import encv from 'assets/resume/en_re.pdf';
-import ptcv from 'assets/resume/pt_cv.pdf';
+import ptcv from 'assets/resume/curriculo-eduardofertigbastos.pdf';
+import encv from 'assets/resume/resume-eduardofertigbastos.pdf';
 import { BsDownload } from 'react-icons/bs';
 
 import { useLanguage } from 'hooks/language';
